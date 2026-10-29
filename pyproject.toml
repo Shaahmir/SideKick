@@ -1,0 +1,15 @@
+[project]
+name = "sidekick"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.4.3",
+    "langchain-google-genai>=4.4.1",
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-openai>=1.6.7",
+    "langchain-tavily>=0.2.18",
+    "python-dotenv>=1.2.4",
+    "wikipedia>=1.4.0",
+]
